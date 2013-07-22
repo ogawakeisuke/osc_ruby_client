@@ -1,4 +1,3 @@
-あああ
 module Osc
   class Argument
     attr_accessor :val

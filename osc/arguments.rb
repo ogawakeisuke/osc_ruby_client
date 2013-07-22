@@ -1,3 +1,4 @@
+あああ
 module Osc
   class Argument
     attr_accessor :val
@@ -6,13 +7,8 @@ module Osc
       @val = val 
     end
 
-    # なぜ?
-    def to_i() @val.to_i end
-    def to_f() @val.to_f end
-    def to_s() @val.to_s end
-
   private
-    # ?
+    # うーん
     def padding(s)
       s + ("\000" * ((4 - (s.size % 4)) % 4))
     end

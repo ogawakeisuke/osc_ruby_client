@@ -1,3 +1,7 @@
+#
+# 現状ここが実行ポイントになっている
+#
+
 require "socket"
 require "./osc_class_require"
 
